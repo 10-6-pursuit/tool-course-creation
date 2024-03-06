@@ -1,0 +1,27 @@
+{
+  "name": "tool-course-creation",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/auth-token": "^3.0.2",
+    "@octokit/rest": "^19.0.5",
+    "chalk": "^5.0.1",
+    "dotenv": "^16.0.3",
+    "inquirer": "^9.1.2",
+    "js-yaml": "^4.1.0",
+    "liquidjs": "^9.42.0",
+    "node-fetch": "^3.2.10",
+    "yargs": "^17.6.0"
+  }
+}
